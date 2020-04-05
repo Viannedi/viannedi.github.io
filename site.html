@@ -1,0 +1,39 @@
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<div id="particles-js">
+  <div class="header">
+      <h1>
+        <span>#StayHome</span>
+        <span class="site-title">Viannedi</span>
+        <span class="site-description">Backend developer</span>
+      </h1>
+ <div class="header-icons">
+        <a aria-label="Send email" href="mailto:qviannedi@gmail.com"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="My Twitter" target="_blank" href="https://twitter.com/Viannedi1"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+        <a aria-label="My Telegram" target="_blank" href="https://t.me/viannedi"><i class="icon fa fa-telegram" aria-hidden="true"></i></a>
+        <a aria-label="My Github" target="_blank" href="https://github.com/viannedi"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+      </div>
+      <div class="header-links">
+        <a class="link" href="index/#about" data-scroll>Обо мне</a>
+        <a class="link" href="index/#projects" data-scroll>Проекты</a>
+      </div>
+  </div>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>
+
+ <div class="user-details dada">
+  <h1>О cайте</h1>
+  <p>Сайт сделан с помощью Jekyll и плагина particle от <a href="https://github.com/nrandecker">Nathan Randecker</a></p>
+</div>
+
+<footer class="footer">
+    <p>&copy; Viannedi<span class="love"> ❤</span></p>
+    <p><a href="">viannedi.ga     </a><a href=""> | О сайте </a></p>
+</footer>

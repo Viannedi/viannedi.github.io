@@ -1,0 +1,18 @@
+# Site settings
+title: Viannedi
+description: Main portfolio
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Viannedi
+user_description: Чо? На этом сайте будут публиковаться все мои последние проекты
+user_title: Backend разработчик
+email: qviannedi@gmail.com
+twitter_username: Viannedi1
+github_username:  Viannedi
+gplus_username:  viannedi
+
+
+
+exclude: ['package.json', 'src' , 'node_modules']
